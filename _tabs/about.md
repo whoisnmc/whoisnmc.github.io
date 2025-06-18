@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# ¿Quién es nmc?
+### ¿Quién es nmc?
 
 Hola, mi nombre es **nmc**, que significa *Neuromorphic Computing*, un concepto que me llamó la atención debido a cómo se relaciona con las máquinas que imitan el cerebro humano. Me gustó la forma en que suena, y lo elegí como mi alias en este mundo que estoy explorando: **ciberseguridad** y **programación con Python.**
 

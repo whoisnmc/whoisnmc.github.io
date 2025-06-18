@@ -4,7 +4,7 @@ categories: [ Linux ]
 tags: [DockerLabs]
 ---
 
-<img src="/assets/img/DLabs/injection.png" alt="Captura de pantalla de la máquina Injection en DockerLabs">
+<img src="/assets/img/DLabs/injection/injection.png" alt="Captura de pantalla de la máquina Injection en DockerLabs">
 
 Hoy trataremos de explotar la máquina *Injection* de [DockerLabs](https://dockerlabs.es/), de dificultad Muy Fácil. Vamos a utilizar un payload de inyección SQL para evadir la autenticación del login.
 
@@ -46,7 +46,7 @@ Nmap done: 1 IP address (1 host up) scanned in 7.92 seconds
 
 Nos percatamos de que está abierto el puerto 22 con el servicio SSH y el puerto 80 con el servicio HTTP. Entramos a la web con el puerto 80: <mark>http://172.17.0.2:80</mark> y nos carga un formulario de login.
 
-<img src="/assets/img/DLabs/login-injection.png" alt="Captura de pantalla del login de la máquina Injection en DockerLabs">
+<img src="/assets/img/DLabs/injection/login-injection.png" alt="Captura de pantalla del login de la máquina Injection en DockerLabs">
 
 ## Payload
 
@@ -54,7 +54,7 @@ Intentamos entrar con las siguientes credenciales:
 User:<mark>' OR '1'='1</mark>
 Password:<mark>' OR '1'='1</mark>
 
-<img src="/assets/img/DLabs/credentials-injection.png" alt="Captura de pantalla de las credenciales de la máquina Injection en DockerLabs">
+<img src="/assets/img/DLabs/injection/credentials-injection.png" alt="Captura de pantalla de las credenciales de la máquina Injection en DockerLabs">
 
 Este payload funciona porque modifica la consulta SQL del backend para que siempre sea verdadera:
 

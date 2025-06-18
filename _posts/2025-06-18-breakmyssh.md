@@ -4,7 +4,7 @@ categories: [ Linux ]
 tags: [DockerLabs]
 ---
 
-<img src="/assets/img/DLabs/brakemyssh.png" alt="Captura de pantalla de la máquina BreakMySSH en DockerLabs">
+<img src="/assets/img/DLabs/breakmyssh/breakmyssh.png" alt="Captura de pantalla de la máquina BreakMySSH en DockerLabs">
 
 Hoy explotaremos la máquina *BreakMySSH* de [DockerLabs](https://dockerlabs.es/), de dificultad Muy Fácil. Vamos a realizar un ataque de fuerza bruta con **Hydra** para obtener la contraseña del usuario **root.**
 

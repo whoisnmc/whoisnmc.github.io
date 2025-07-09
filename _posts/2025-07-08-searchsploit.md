@@ -76,6 +76,6 @@ SearchSploit está diseñado para uso ético y educativo. Solo debes usar exploi
 
 ## Más información
 
-Página oficial de Exploit-DB: https://www.exploit-db.com/
+Página oficial de [Exploit-DB](https://www.exploit-db.com/)
 
-Repositorio en GitHub: https://github.com/offensive-security/exploitdb
+Repositorio en [GitHub](https://gitlab.com/exploit-database/exploitdb)

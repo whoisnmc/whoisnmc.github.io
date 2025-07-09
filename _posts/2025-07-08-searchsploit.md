@@ -1,6 +1,6 @@
 ---
 title: SearchSploit - Tools
-categories: [ Linux ]
+categories: [ LinuxTools ]
 tags: [Tools]
 ---
 
